@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Asset/Logo.png">
+    <title>Subscribe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="header">
+        <img src="Asset/Logo.png" alt=""> 
+        <p>VOrskins</p>
+    </div>
+    <div id="navbar" class="sticky">
+        <a href="Home.html">HOME</a>
+        <a href="About.html">ABOUT</a>
+        <a href="Promotion.html">PROMOTION</a>
+        <a href="Product.html">PRODUCT</a>
+        <a href="Subscribe.html">SUBSCRIBE</a>
+    </div>
+    <div class="subscribe">
+        <div>
+            <p>SUBSCRIBE</p>
+        </div>
+        <form id="myform" method="post">
+            <label for="fullname">Full name</label>
+            <input id="fullname" type="text" name="fullname">
+            <br><br>
+            <label for="email">Email Address</label>
+            <input id="email" type="text" name="email">
+            <br><br>
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password">
+            <br><br>
+            <label for="phone">Phone Number</label>
+            <input id="phone" type="text" name="phone">
+            <br><br>
+            <label>Preferences</label>
+            <input id="skincare" type="radio" name="preferences" value="Skin">
+            <label for="skincare">Skin Care</label>
+            <br>
+            <input id="bodycare" type="radio" name="preferences" value="Body">
+            <label for="bodycare">Body Care</label>
+            <br><br>
+            <label for="agreement"><input id="agree" type="checkbox" value="Agreement">Agree to receive newsletter</label>
+            <br><br>
+            <div>
+                <p id="errorMessages"></p>
+            </div>
+            <button id="submit">SUBMIT</button>
+            <br><br>
+        </form>
+    </div>
+    <div class="footer">
+        <div id="footerContact">
+            <p>CONTACT US</p>
+        </div>
+        <div id="footercontain">
+            <img src="Asset/Instagram.png" alt="">
+            <p>vorskins.id</p>
+            <img src="Asset/Phone.png" alt="">
+            <p>081234567890</p>
+            <img src="Asset/Gmail.png" alt="">
+            <p>vorskins.id@gmail.com</p>
+        </div>
+        <div id ="footerCopy">
+            <p>© COPYRIGHT 2022</p>
+        </div>
+    </div>
+</body>
+</html>
